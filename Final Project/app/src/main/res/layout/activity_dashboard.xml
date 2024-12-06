@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="#F1F1F1">
+
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/inventoryListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventory List"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/sensorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensors"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFF"
+        android:padding="12dp" />
+</LinearLayout>

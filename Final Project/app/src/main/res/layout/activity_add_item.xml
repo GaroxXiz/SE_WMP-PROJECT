@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/addItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/itemNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/itemQuantityField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:padding="12dp" />
+</LinearLayout>
